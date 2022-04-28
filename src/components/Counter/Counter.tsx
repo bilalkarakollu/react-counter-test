@@ -11,11 +11,11 @@ const Counter = () => {
     <div>
       <h1 className={styles.counter}>Counter</h1>
       <div className={styles.container}>
-        <button className={styles.button} onClick={decrement}>
+        <button data-testid="decrement-btn" className={styles.button} onClick={decrement}>
           -
         </button>
-        <span className={styles.count}>{count}</span>
-        <button className={styles.button} onClick={increment}>
+        <span data-testid="count" className={styles.count}>{count}</span>
+        <button data-testid="increment-btn" className={styles.button} onClick={increment}>
           +
         </button>
       </div>
