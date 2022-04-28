@@ -20,4 +20,11 @@
 .count{
     font-size: 30px;
     font-weight: 600;
+    width: 100px;
+    display: block;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
 }
